@@ -14,6 +14,41 @@ body{
     z-index: 1;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     font-weight: 800;
+}
+
+.hamburger-btn{
+    margin: 1rem;
+}
+
+.header-list{
+    display: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+.header-link{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+
+@media (min-width: 40rem){
+    .header{
+        justify-content: flex-end;
+    }
+    .header-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 3rem;
+    }
+    .header-link{
+        padding-right: 3rem;
+    }
+    .hamburger-btn{
+       display: none;
+    }
 }
