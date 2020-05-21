@@ -1,0 +1,35 @@
+.about-us-section{
+    background: rgb(47, 85, 116);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 80vh;
+}
+
+.about-us-section h1{
+    margin: 4rem 0 0 0;
+    font-size: 50px; 
+    line-height: 55px;
+}
+
+.about-us-section p{
+    font-style: italic;
+    font-size: 26px;
+    line-height: 36px;
+    margin-bottom: 4rem;
+}
+
+.about-us-section__link{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.github_logo{
+    margin-right: 8px;
+}

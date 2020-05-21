@@ -1,0 +1,15 @@
+.app-section{
+    background: rgb(60, 110, 150);
+    color: white;
+    height: 100%;
+    text-align: center;
+    padding: 3rem;
+}
+
+.app-section h2{
+    margin-top: 2rem;
+    font-size: 28px;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 400;
+}

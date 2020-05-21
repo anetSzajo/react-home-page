@@ -1,13 +1,17 @@
 import React from 'react';
 
+import HomeSection from '../HomeSection/HomeSection';
+import AboutUsSection from '../AboutUsSection/AboutUsSection';
+import AppSection from '../AppSection/AppSection';
+
 import './mainContent.css';
 
 function MainContent(props) {
     return (
         <div className="main-content">
-            <h1>Welcome on our page!</h1>
-            <h2>Ready to code?</h2>
-            {props.children}
+            <HomeSection />
+            <AppSection />
+            <AboutUsSection />
         </div>
     )
 }
