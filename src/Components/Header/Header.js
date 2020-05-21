@@ -31,6 +31,16 @@ class Header extends React.Component{
         });
     }
 
+    menuLinks() {
+        return (
+            <div className="menu-links">
+                <p className="menu-link" href="#">Home</p>
+                <p className="menu-link" href="#">App</p>
+                <p className="menu-link" href="#">About us</p>
+            </div>
+        )
+    }
+
     mobileMenu() {
         return (
             <Fragment>
@@ -47,11 +57,7 @@ class Header extends React.Component{
                 />
                 {this.state.open
                 ?
-                <div className="menu-links">
-                    <p className="menu-link" href="#">Homepage</p>
-                    <p className="menu-link" href="#">App</p>
-                    <p className="menu-link" href="#">About us</p>
-                </div>
+                this.menuLinks()
                 :
                 null
                 }
@@ -59,23 +65,12 @@ class Header extends React.Component{
         )
     }
 
-    desktopMenu() {
-        return (
-            <Fragment>
-                <div className="menu-links">
-                    <p className="menu-link" href="#">Home</p>
-                    <p className="menu-link" href="#">App</p>
-                    <p className="menu-link" href="#">About us</p>
-                </div>
-            </Fragment>
-        )
-    }
 
     render(){
         const isMobile = this.state.windowWidth < this.mediaQuery.mobile;
     return(
             <div className="header">
-                {isMobile ? this.mobileMenu() : this.desktopMenu()}
+                {isMobile ? this.mobileMenu() : this.menuLinks()}
             </div>
     )
     }
