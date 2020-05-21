@@ -1,0 +1,12 @@
+.footer{
+    background: rgb(47, 85, 116);
+    border-top: 4px solid rgb(214, 94, 110);
+    text-align: left;
+    color: white;
+    font-size: 20px;
+}
+
+.footerContent{
+    margin: 0;
+    padding: 2px 13px;
+}

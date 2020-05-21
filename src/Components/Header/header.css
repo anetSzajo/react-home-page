@@ -1,0 +1,19 @@
+body{
+    margin: unset;
+    height: 100vh;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.header{
+    background: rgb(214, 94, 110);
+    color: white;
+    padding: 6px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: 800;
+}
