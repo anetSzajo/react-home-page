@@ -13,7 +13,7 @@ function AboutPerson(props) {
                 <p>I am {props.role} developer working with {props.languages}.</p>
                 <p>I am interested in {props.interests}.</p>
                 <a href={props.github}>
-                    <img className="github_logo" src="../logos/GitHub-Mark-Light-32px.png" alt=""/>
+                    <img className="github_logo" src="GitHub-Mark-Light-32px.png" alt=""/>
                     GitHub
                 </a>
                 <a href={props.linkedin}>
