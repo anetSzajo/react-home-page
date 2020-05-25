@@ -10,7 +10,7 @@ class Header extends React.Component{
         this.mediaQuery = {
             desktop: 1200,
             tablet: 768,
-            mobile: 576,
+            mobile: 640,
         };
 
         this.state = {
