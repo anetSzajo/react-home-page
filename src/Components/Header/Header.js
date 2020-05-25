@@ -14,7 +14,7 @@ class Header extends React.Component{
         };
 
         this.state = {
-            windowWidth: null,
+            windowWidth: document.body.clientWidth,
             open: false
         }
     }
