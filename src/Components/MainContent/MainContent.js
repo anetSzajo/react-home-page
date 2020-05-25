@@ -1,8 +1,8 @@
 import React from 'react';
 
-import HomeSection from '../HomeSection/HomeSection';
-import AboutUsSection from '../AboutUsSection/AboutUsSection';
-import AppSection from '../AppSection/AppSection';
+import HomeSection from './HomeSection/HomeSection';
+import AboutUsSection from './AboutUsSection/AboutUsSection';
+import AppSection from './AppSection/AppSection';
 
 import './mainContent.css';
 

@@ -23,7 +23,7 @@
 
 .person-description{
     padding: 1rem;
-    text-align: justify;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
