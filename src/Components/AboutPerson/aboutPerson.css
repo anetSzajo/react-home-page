@@ -2,17 +2,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* background: rgb(73, 122, 161); */
+    justify-content: center;
     padding: 2rem;
     margin: 0 auto 2rem auto;
-    /* border-radius: 8px; */
+    flex-wrap: wrap;
 }
 
 .person-photo__container{
     width: 10rem;
     height: 10rem;
     border-radius: 80px;
-    background: pink;
+    background: rgb(214, 94, 110);
     margin: 1rem;
 }
 
@@ -23,7 +23,11 @@
 
 .person-description{
     padding: 1rem;
-    text-align: left;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .person-description p{
@@ -37,7 +41,7 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .person-description a{
@@ -54,4 +58,10 @@
 .github_logo,
 .linkedin_logo{
     margin-right: 8px;
+}
+
+@media (min-width: 40rem) {
+    .person-description{
+        text-align: left;
+    }
 }
