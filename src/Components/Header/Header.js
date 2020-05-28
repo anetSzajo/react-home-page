@@ -32,6 +32,11 @@ class Header extends React.Component{
         window.addEventListener('resize', () => {
             this.setState({windowWidth: document.body.clientWidth})
         });
+        window.addEventListener('click', event => {
+            if (this.state.open && !this.node.contains(event.target)){
+                this.setState({ open: false});
+            }
+        });
     }
 
     menuLinks() {
@@ -72,7 +77,7 @@ class Header extends React.Component{
     render(){
         const isMobile = this.state.windowWidth < this.mediaQuery.mobile;
     return(
-            <div className="header">
+            <div className="header" ref={node => this.node = node}>
                 {isMobile ? this.mobileMenu() : this.menuLinks()}
             </div>
     )
