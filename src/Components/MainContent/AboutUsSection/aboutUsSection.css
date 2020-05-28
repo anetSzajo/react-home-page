@@ -1,3 +1,6 @@
+section{
+    padding-top: 4rem;
+}
 .about-us-section{
     background: rgb(47, 85, 116);
     display: flex;
@@ -6,4 +9,16 @@
     justify-content: center;
     text-align: center;
     color: white;
+    padding: 48px;
 }
+
+.about-us-section h1{
+    margin: 1rem auto 0 auto;
+    font-size: 2em;
+}
+/* 
+@media(min-width: 40rem){
+    .about-us-section h1{
+        margin: 4rem auto 0 auto;
+    }
+} */

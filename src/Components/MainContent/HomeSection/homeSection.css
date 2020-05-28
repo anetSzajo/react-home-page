@@ -1,3 +1,7 @@
+section{
+    padding: 6rem auto auto 4rem;
+}
+
 .home-section{
     background: black;
     color: white;
@@ -7,12 +11,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    /* padding-top: 6rem; */
 }
 
 .home-section h1{
-    font-size: 65px;
+    font-size: 48px;
     line-height: 55px;
-    margin: 14px;
+    margin: 4rem 14px 0 14px;
 }
 
 .home-section h2{
@@ -21,4 +26,10 @@
     margin: 0;
     font-weight: 400;
     font-style: italic;
+}
+
+@media(min-width: 40rem){
+    .home-section h1{
+        font-size: 65px;
+    }
 }

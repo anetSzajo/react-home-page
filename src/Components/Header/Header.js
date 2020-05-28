@@ -1,7 +1,10 @@
 import React, { Fragment } from 'react';
 import HamburgerMenu from 'react-hamburger-menu';
+import Scroll from 'react-scroll';
 
 import './header.css';
+
+let Link = Scroll.Link;
 
 class Header extends React.Component{
     constructor(props){
@@ -34,9 +37,9 @@ class Header extends React.Component{
     menuLinks() {
         return (
             <div className="menu-links">
-                <p className="menu-link" href="#">Home</p>
-                <p className="menu-link" href="#">App</p>
-                <p className="menu-link" href="#">About us</p>
+                <p><Link to="home-section" spy={true} smooth={true} duration={500} className="menu-link">Home</Link></p>
+                <p><Link to="app-section" spy={true} smooth={true} duration={500} className="menu-link">App</Link></p>
+                <p><Link to="about-us-section" spy={true} smooth={true} duration={500} className="menu-link">About us</Link></p>
             </div>
         )
     }

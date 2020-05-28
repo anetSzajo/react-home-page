@@ -1,9 +1,12 @@
+section{
+    padding-top: 4rem;
+}
 .app-section{
     background: rgb(60, 110, 150);
     color: white;
     height: 100%;
     text-align: center;
-    padding: 3rem;
+    padding: 2rem 3rem 3rem 3rem;
 }
 
 .app-section h2{
