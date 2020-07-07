@@ -41,7 +41,7 @@ class Header extends React.Component{
 
     menuLinks() {
         return (
-            <div className="menu-links">
+            <div className="menu-links" id="menu-links">
                 <p><Link to="home-section" spy={true} smooth={true} duration={500} className="menu-link">Home</Link></p>
                 <p><Link to="app-section" spy={true} smooth={true} duration={500} className="menu-link">App</Link></p>
                 <p><Link to="about-us-section" spy={true} smooth={true} duration={500} className="menu-link">About us</Link></p>

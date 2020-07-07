@@ -11,7 +11,6 @@ function AboutPerson(props) {
             <div className="person-description">
                 <h1>Hi, I am {props.name}!</h1>
                 <p>I am {props.role} developer working with {props.languages}.</p>
-                <p>I am interested in {props.interests}.</p>
                 <div className="person-description__links">
                     <a href={props.github}>
                         <img className="github_logo" src="GitHub-Mark-Light-32px.png" alt=""/>

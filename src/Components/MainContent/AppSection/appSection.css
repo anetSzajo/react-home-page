@@ -7,7 +7,7 @@
 }
 
 section{
-    padding-top: 4rem;
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,36 +24,6 @@ section h2{
     text-decoration: underline;
     text-underline-position: under;
     font-weight: 400;
-}
-
-.app-images{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem 0;
-}
-
-.app-image__container{
-    width: 15rem;
-    height: 25rem;
-    margin: 1rem;
-    border: 2px solid rgb(214, 94, 110);
-    border-radius: 8px;
-    padding: 1rem;
-}
-
-.app-image{
-    width: 100%;
-    height: 100%;
-}
-
-button{
-    color: white;
-    background: rgb(214, 94, 110);
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 2rem;
 }
 
 @media(min-width: 40rem) {

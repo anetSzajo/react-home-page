@@ -8,8 +8,8 @@ function HomeSection() {
         <div className="home-section">
             <Element id="home-section" name="home-section">
                 <section>
-                    <h1>Welcome on our page!</h1>
-                    <h2>Ready to code?</h2>
+                    <h1>Delanos</h1>
+                    <h2>solutions</h2>
                 </section>
             </Element>
         </div>
